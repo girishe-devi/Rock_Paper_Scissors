@@ -14,7 +14,7 @@
 
         result(my_move,comp_move);
         
-    " class="choice"><img src="./Rock.png" alt="" class="move"></button>
+    " class="choice"><img src="Rock.png" alt="" class="move"></button>
 
     <button onclick="
         my_move='Paper';
@@ -22,7 +22,7 @@
 
         result(my_move,comp_move);
         
-    " class="choice"><img src="./Paper.png" alt="" class="move"></button>
+    " class="choice"><img src="Paper.png" alt="" class="move"></button>
 
     <button onclick="
 
@@ -31,7 +31,7 @@
 
         result(my_move,comp_move);
         
-    " class="choice"><img src="./Scissors.png" alt="" class="move"></button>
+    " class="choice"><img src="Scissors.png" alt="" class="move"></button>
 
     <P class="score"></P>
 
@@ -130,7 +130,7 @@ Wins:${score.wins},Losses:${score.losses},Ties:${score.ties}`);
         }
 
         function report(u_move,c_move,final){
-            document.querySelector('.result').innerHTML=`My move <img src="./${u_move}.png" class="move">, Comp move <img src="./${c_move}.png"class="move">`;
+            document.querySelector('.result').innerHTML=`My move <img src="${u_move}.png" class="move">, Comp move <img src="${c_move}.png"class="move">`;
 
             document.querySelector('.res').innerHTML=final;
         }
