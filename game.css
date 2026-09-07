@@ -6,9 +6,35 @@
 }
 body{
     background-color: black;
+    text-align: center;
     color: white;
+    h1{
+        margin: 50px;
+    }
 }
 .choice{
     border-radius: 50px;
     background-color: transparent;
+    margin: 40px 10px 20px;
+    
+}
+.score{
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+}
+.result{
+    margin: 40px;
+}
+.res{
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+.reset-score, .auto-play{
+    padding: 10px;
+    background-color: rgb(238, 151, 1);
+    color: rgba(255, 255, 255, 0.967);
+}
+.auto-play{
+    padding: 10px 20px;
 }
